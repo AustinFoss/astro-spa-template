@@ -1,0 +1,17 @@
+---
+/*
+Home Page
+*/
+
+import RootLayout from "../layouts/RootLayout.astro";
+import Page from "../layouts/Page.astro";
+import NumberCounter from "../components/NumberCounter.svelte";
+---
+
+<RootLayout>
+	<Page title="Home">
+
+		<NumberCounter client:load />
+		
+	</Page>
+</RootLayout>
