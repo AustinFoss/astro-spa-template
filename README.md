@@ -7,8 +7,9 @@ This repo serves as a repeatable starting point, incorporating several Astro fea
 - Svelte
 - Tailwind CSS
 - Daisy UI
-- Astro View Transitions
-- Nano Stores
+- Astro View Transitions (SPA)
+- Nano Stores (State Management)
+- Vite-PWA
 
 ### Structure
 
@@ -19,6 +20,10 @@ This repo serves as a repeatable starting point, incorporating several Astro fea
             - ...meta Tags
         - Body
             - HeaderLayout
+                - Navigation
+                - Banner
+                - Logo
+                - ...
             - BodyLayout
                 - Page
                     - index
