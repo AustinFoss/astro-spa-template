@@ -4,7 +4,8 @@
     "types": [
       "vite-plugin-pwa/client",
       "vite-plugin-pwa/info",
-      "astro/client"
+      "astro/client",
+      "vite-plugin-pwa/svelte"
     ]
   }
 }

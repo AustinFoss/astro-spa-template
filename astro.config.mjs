@@ -2,15 +2,11 @@ import { defineConfig } from 'astro/config';
 import svelte from '@astrojs/svelte';
 import tailwind from "@astrojs/tailwind";
 import AstroPWA from '@vite-pwa/astro'
-import basicSsl from '@vitejs/plugin-basic-ssl'
 
 // https://astro.build/config
 export default defineConfig({
     vite: {
-        server: {https: true},
         plugins: [
-          basicSsl()
-
         ]
     },
     integrations: [

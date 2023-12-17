@@ -5,7 +5,7 @@ import Header from "./Header.astro";
 import Footer from "./Footer.astro"
 
 import { pwaInfo } from 'virtual:pwa-info';
-import ReloadPrompt from '../components/ReloadPrompt.astro';
+import ReloadPrompt from '../components/ReloadPrompt.svelte';
 
 ---
 
@@ -34,7 +34,7 @@ import ReloadPrompt from '../components/ReloadPrompt.astro';
 
 		<Footer />
 
-		<ReloadPrompt />
+		<ReloadPrompt client:only/>
 
 	</body>
 
